@@ -25,7 +25,7 @@ int main(){
         cout << "nilai x = " << x << " Lari keliling lapangan!" << endl;
         x = rand() % 10;
         perulanganDoWhile++;
-    }while(+ < 7);
+    }while(x < 7);
     cout << "Nilai akhir x = " << endl;
     cout << "Jumlah perulangan = " << perulanganDoWhile << endl;
 }
