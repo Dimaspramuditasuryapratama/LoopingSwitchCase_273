@@ -12,4 +12,9 @@ int main(){
     srand(time(0));
     x = rand() % 10;
     cout << "Nilai awal x = " << x << endl;
+    while(x < 7){
+        cout << "nilai x = " << x << " Lari keliling lapangan!" << endl;
+        x = rand() % 10;
+        perulanganWhile++;
+    }
 }
